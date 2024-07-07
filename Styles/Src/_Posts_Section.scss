@@ -1,0 +1,24 @@
+.PostsSection {
+  background-color: rgb(233, 233, 233);
+  min-height: 100vh;
+  padding: 5vh 1vw;
+  .UserPost {
+    background-color: white;
+    margin: 2vh 2vw;
+    padding: 10px;
+    border-radius: 15px;
+    .Title {
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+    hr {
+      width: 90%;
+      margin: 10px auto  ;
+    }
+    .Body {
+      font-size: 1.1rem;
+      font-family: san sans-serif;
+      font-weight: 400;
+    }
+  }
+}
