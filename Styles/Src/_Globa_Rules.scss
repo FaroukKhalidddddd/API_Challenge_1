@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+  overflow: auto;
+}
+body {
+  /// 3. Enchanted Night Sky
+  background: radial-gradient(circle, #141b2d, #000000);
+  min-height: 100vh;
+  padding: 3vh 1vw;
+}
+.Parent {
+  display: grid;
+  grid-template-columns: 38% 61%;
+  justify-content: space-between;
+}
+.Container {
+  padding: 3px;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 13px;
+  }
+  .Parent {
+    display: grid;
+    grid-template-columns: 48% 50%;
+    justify-content: space-between;
+  }
+}
+
+/* ----------------------------------------------------------------*/
+@media only screen and (max-width: 3500px) {
+  html {
+    font-size: 37px;
+  }
+}
+@media only screen and (max-width: 3000px) {
+  html {
+    font-size: 32px;
+  }
+}
+@media only screen and (max-width: 2500px) {
+  html {
+    font-size: 22px;
+  }
+}
+@media only screen and (max-width: 2000px) {
+  html {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  html {
+    font-size: 19px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  html {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  html {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 920px) {
+  html {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  html {
+    font-size: 11px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  html {
+    font-size: 9px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  html {
+    font-size: 8px;
+  }
+}
