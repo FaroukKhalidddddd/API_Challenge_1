@@ -1,0 +1,31 @@
+.CardsSection {
+  height: 100vh;
+  padding: 3vh 1vw;
+  .UserCard {
+    padding: 15px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    border: 7px solid transparent ;
+    
+    margin: 2vh ;
+    transition: 0.7s ease;
+    h3 {
+      margin: 0;
+      padding: 0;
+    }
+    .UserId {
+      font-weight: bold;
+      font-size: 1.25rem;
+      padding-bottom: 1vh;
+    }
+    .Email {
+      font-size: 1.1rem;
+      font-weight: 400;
+    }
+    &:hover{
+      opacity: 0.75;
+      transform: scale(1.03);
+    }
+  }
+}
